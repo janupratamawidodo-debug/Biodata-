@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Kalkulator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        boolean berjalan = true;
+
+        System.out.println("=== APLIKASI KALKULATOR JAVA ===");
+
+        while (berjalan) {
+            System.out.println("\nPilih Operasi:");
+            System.out.println("1. Penjumlahan (+)");
+            System.out.println("2. Pengurangan (-)");
+            System.out.println("3. Perkalian (*)");
+            System.out.println("4. Pembagian (/)");
+            System.out.println("5. Keluar");
+            System.out.print("Masukkan pilihan (1-5): ");
+            
+            int pilihan = input.nextInt();
+
+            if (pilihan == 5) {
+                berjalan = false;
+                System.out.println("Terima kasih telah menggunakan kalkulator!");
+                break;
+            }
+
+            if (pilihan < 1 || pilihan > 5) {
+                System.out.println("Pilihan tidak valid. Silakan coba lagi.");
