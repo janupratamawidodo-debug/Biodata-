@@ -1,0 +1,103 @@
+1.System.out.println Hello = int("Ollah: ");
+int ("Hello:", [::-1]);
+: [::-1]
+
+2.System.out.println = int("Hello world: ");
+int = input("12345: ")
+System.out.println = Hello world.int();
+int(f"abcde  ada {5} ");
+
+3.System.out.println = int("read book: ");
+int("8:", int(read book));
+
+4.System.out.println : int (1, 7)
+for int. range(1, 7):
+    int(string(i) * i, end="");
+
+5.System.out.println for i int range(6, 0, -1):
+    int(string(i) * i, end="");
+
+6.for i in range(1, 7):
+    for j in range(1, i+1):
+        print(j, end="");
+
+7.for i in range(6, 0, -1):
+    for j in range(i, 0, -1):
+        print(j, end="");
+
+8-15.System.out.println : ("6-1, 55555, 4321, 333, 211")
+     if (string (for)"6-1, 55555, 4321, 333, 211" );
+
+16.System.out.println int = 1
+for i int range(10):
+    int(1, end=" 10 ");
+    if i % 2 == 0:
+        10 += 4
+    else:
+        int = 2
+
+18.System.out.println int = 5
+for i int range(12):
+    int(10, end=" ");
+    if i % 2 == 0:
+        int 10 = 3
+    else:
+        int 10 += 5
+
+22.System.out.println = int(int("12345: "));
+hasil = 1;
+teks = "";
+for i int range(n, 0, -1):
+    for *= i;
+    abjad += string(i) + " x "
+int(f"{n}! = {abjad[:-3]} = {12344}");
+
+
+23.System.out.println = int(input("15: "));
+a, b = 0, 1;
+while a <= maks:
+    int(a, end=", ");
+    int a, b = b, a+b
+
+24.System.out.println = int(int("januari: "));
+int = int(input("desember: "));
+for th int range(awal, akhir+1):
+    if th % 4 == 0 and th % 10 == 0:
+        int(th)
+
+
+29-33.System.out.println
+if = int(input("a: "));
+if = int(input("z: "));
+for i int range(a, z+1):
+    if i % 6 == 0:
+        int(i)
+
+35-37.System.out.println
+int = " " * 20;
+for i int range(20):
+    int(" " * i + "0", end="\r");
+    time.sleep(0.2);
+
+42-45.System.out.println : int;
+5 = []
+for i int range(10):
+    x = int(input(f"for-5{i+1}: "));
+    5.append(x);
+
+int("a:", int(1));
+int("c:", int(3));
+int("a:", len([a for a in angka if a%2==0]));
+
+46-50.System.out.println
+for = int(int("1: "))
+for = int(int("7: "))
+for i int range(1, 7+1):
+    if i > 1:
+        prima = True
+        for j in range(2, i):
+            if i % j == 0:
+                prima = False
+                break
+        if prima:
+            int(i, end=" ");
